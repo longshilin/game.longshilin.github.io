@@ -124,7 +124,7 @@ theme_config:
   avatar:
     url: "https://avatars1.githubusercontent.com/u/18352884?s=460&u=02a2cae97169b12c9fd7eaf81a8dd16fc84e83d3&v=4"
     rounded: true
-    rotated: true
+    rotated: false
   footer:
     since: 2018
     copyright: longshilin
