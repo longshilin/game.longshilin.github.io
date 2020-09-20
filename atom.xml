@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Gamedev</title>
   <icon>https://game.longshilin.com/icon.png</icon>
-  <subtitle>Longshilin的博客</subtitle>
+  <subtitle>游戏开发</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://game.longshilin.com/"/>
-  <updated>2020-09-20T16:33:08.510Z</updated>
+  <updated>2020-09-20T16:46:12.412Z</updated>
   <id>https://game.longshilin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://game.longshilin.com/unity-2020-09-10-test/"/>
     <id>https://game.longshilin.com/unity-2020-09-10-test/</id>
     <published>2020-09-10T00:00:00.000Z</published>
-    <updated>2020-09-20T16:33:08.510Z</updated>
+    <updated>2020-09-20T16:46:12.412Z</updated>
     
     <summary type="html">
     
