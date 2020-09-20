@@ -4,7 +4,7 @@
 
 # Site
 title: Gamedev
-subtitle: 'Longshilin的博客'
+subtitle: '游戏开发'
 description: '个人博客'
 keywords: 'UNITY,C#,游戏开发'
 author: longshilin
@@ -122,7 +122,7 @@ theme_config:
   motion:
     enable: false
   avatar:
-    url: "https://secure.gravatar.com/avatar/0930091f05ac4d1044c02dbd3d619cfe?s=80&d=identicon&r=g"
+    url: "https://avatars1.githubusercontent.com/u/18352884?s=460&u=02a2cae97169b12c9fd7eaf81a8dd16fc84e83d3&v=4"
     rounded: true
     rotated: true
   footer:
