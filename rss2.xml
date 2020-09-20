@@ -15,11 +15,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Sun, 20 Sep 2020 16:29:00 GMT</pubDate>
+    <pubDate>Sun, 20 Sep 2020 16:33:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>我是一个测试文章</title>
+      <title>Test</title>
       <link>https://game.longshilin.com/unity-2020-09-10-test/</link>
       <guid>https://game.longshilin.com/unity-2020-09-10-test/</guid>
       <pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate>
