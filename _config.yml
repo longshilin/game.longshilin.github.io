@@ -4,9 +4,9 @@
 
 # Site
 title: Gamedev
-subtitle: '李九仙的博客'
-description: '一个不专业的程序员,写着专业的博客'
-keywords: 'UNITY,C#,游戏开发,NETCORE,JS,PHP,C'
+subtitle: 'Longshilin的博客'
+description: '个人博客'
+keywords: 'UNITY,C#,游戏开发'
 author: longshilin
 language: zh-CN
 timezone: 'Asia/Shanghai'
