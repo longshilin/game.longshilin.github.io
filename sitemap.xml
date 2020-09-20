@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gamedev.longshilin.com/%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://gamedev.longshilin.com/Test/</loc>
     
-    <lastmod>2020-09-20T13:47:47.692Z</lastmod>
+    <lastmod>2020-09-20T13:59:36.142Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://gamedev.longshilin.com/about/index.html</loc>
     
-    <lastmod>2020-09-20T13:47:47.692Z</lastmod>
+    <lastmod>2020-09-20T13:59:36.142Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://gamedev.longshilin.com/categories/index.html</loc>
     
-    <lastmod>2020-09-20T13:47:47.692Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://gamedev.longshilin.com/tags/index.html</loc>
-    
-    <lastmod>2020-09-20T13:47:47.692Z</lastmod>
+    <lastmod>2020-09-20T13:59:36.142Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://gamedev.longshilin.com/guestbook/index.html</loc>
     
-    <lastmod>2020-09-20T13:47:47.692Z</lastmod>
+    <lastmod>2020-09-20T13:59:36.142Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://gamedev.longshilin.com/tags/index.html</loc>
+    
+    <lastmod>2020-09-20T13:59:36.142Z</lastmod>
     
   </url>
   

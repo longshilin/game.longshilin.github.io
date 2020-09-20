@@ -15,13 +15,13 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个不专业的程序员,写着专业的博客</description>
-    <pubDate>Sun, 20 Sep 2020 13:47:47 GMT</pubDate>
+    <pubDate>Sun, 20 Sep 2020 13:59:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>一个测试文章</title>
-      <link>https://gamedev.longshilin.com/%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</link>
-      <guid>https://gamedev.longshilin.com/%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</guid>
+      <link>https://gamedev.longshilin.com/Test/</link>
+      <guid>https://gamedev.longshilin.com/Test/</guid>
       <pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate>
       <description>
       
@@ -37,7 +37,7 @@
       </description>
       
       
-      <comments>https://gamedev.longshilin.com/%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/#disqus_thread</comments>
+      <comments>https://gamedev.longshilin.com/Test/#disqus_thread</comments>
     </item>
     
   </channel>
