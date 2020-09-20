@@ -15,29 +15,23 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个不专业的程序员,写着专业的博客</description>
-    <pubDate>Sun, 20 Sep 2020 14:32:11 GMT</pubDate>
+    <pubDate>Sun, 20 Sep 2020 14:35:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>一个测试文章</title>
-      <link>https://gamedev.longshilin.com/Test/</link>
-      <guid>https://gamedev.longshilin.com/Test/</guid>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate>
+      <title>Unity 导出 Android 64-bit 版本</title>
+      <link>https://gamedev.longshilin.com/unity-2019-06-20-unity-android-x64/</link>
+      <guid>https://gamedev.longshilin.com/unity-2019-06-20-unity-android-x64/</guid>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;p&gt;这是一个测试文章&lt;/p&gt;
-
-          
-        
+        &lt;h2 id=&quot;导出说明&quot;&gt;&lt;a href=&quot;#导出说明&quot; class=&quot;headerlink&quot; title=&quot;导出说明&quot;&gt;&lt;/a&gt;导出说明&lt;/h2&gt;&lt;p&gt;Unity supports x64 since 2017 LTS. To enable it you can go to File &amp;gt; Build Settings &amp;gt; Player Settings.&lt;/p&gt;
+&lt;p&gt;There under “Other Settings” you have to change your Script Backend to IL2CPP, and you will have the ARM64 checkbox active. Check it.&lt;/p&gt;
       
       </description>
       
       
-      <comments>https://gamedev.longshilin.com/Test/#disqus_thread</comments>
+      <comments>https://gamedev.longshilin.com/unity-2019-06-20-unity-android-x64/#disqus_thread</comments>
     </item>
     
   </channel>
