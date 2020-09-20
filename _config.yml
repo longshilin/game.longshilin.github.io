@@ -1,0 +1,204 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Gamedev
+subtitle: '李九仙的博客'
+description: '一个不专业的程序员,写着专业的博客'
+keywords: 'UNITY,C#,游戏开发,NETCORE,JS,PHP,C'
+author: longshilin
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://gamedev.longshilin.com
+root: /
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## Use post's date for updated date unless set in front-matter
+use_date_for_updated: false
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include: 
+exclude: 
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next
+theme_config:
+  scheme: Gemini
+  menu:
+    home: / || fa fa-home
+    categories: /categories/ || fa fa-th
+    tags: /tags/ || fa fa-tags
+    about: /about/ || fa fa-user
+    留言: /guestbook/ || fa fa-sticky-note
+    #sitemap: /sitemap.xml || fa fa-sitemap
+    RSS: /atom.xml || fa fa-rss
+  menu_settings:
+    icons: true
+    badges: true
+  sidebar:
+    position: right
+  social:
+    GitHub: https://github.com/longshilin || fab fa-github
+    E-Mail: mailto:583297550@qq.com || fa fa-envelope
+  links:
+    #Demo: http://www.longshilin.com
+  post_edit:
+    enable: true
+    url: https://github.com/longshilin/game.longshilin.github.io/edit/master/source/ # Link for view source
+  local_search:
+    enable: true
+  motion:
+    enable: false
+  avatar:
+    url: "https://secure.gravatar.com/avatar/0930091f05ac4d1044c02dbd3d619cfe?s=80&d=identicon&r=g"
+    rounded: true
+    rotated: true
+  footer:
+    since: 2016
+    copyright: longshilin
+    powered: false
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: ''
+
+# hexo-enhancer 
+## https://github.com/sisyphsu/hexo-enhancer
+tags: Java,Golang,React,Vue,Unity,C#,NETCORE,游戏,地图,Redis,Linux,Win,GitHub,proxy,代理,brew,scoop,powershell,shell,windows,ugui,mesh,entitas,addressable,aoi,sync,同步,abp
+
+# hexo-excerpt
+## https://github.com/chekun/hexo-excerpt
+excerpt:
+  depth: 3
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+
+# hexo-generator-feed
+## https://github.com/hexojs/hexo-generator-feed
+feed:
+  # Generate both atom and rss2 feeds
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+
+# hexo-generator-sitemap
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+# hexo-generator-searchdb
+## https://github.com/next-theme/hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# hexo-img-cdn
+## https://github.com/longshilin/hexo-generator-cdn
+## 因为博客图片的url是类型../../assets/image.png之类的图片,所以cdnurl后面多了两个//使其可以正常访问
+cdn:
+  enable: true
+  onlypost: false
+  url: //cdn.jsdelivr.net/gh/longshilin/game.longshilin.github.io@gh-pages
+  img_url: //cdn.jsdelivr.net/gh/longshilin/game.longshilin.github.io@gh-pages///
+
+# hexo-next-utteranc
+## https://github.com/theme-next/hexo-next-utteranc
+# Demo: https://utteranc.es/  http://trumandu.github.io/about/
+utteranc:
+  enable: true
+  repo: longshilin/game.longshilin.github.io
+  pathname: pathname
+  # theme: github-light,github-dark,github-dark-orange
+  theme: github-light
+  cdn: https://utteranc.es/client.js
+  # If you want to modify priority, please config in **hexo**
+  #priority:
