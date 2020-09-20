@@ -51,6 +51,7 @@ jobs:
       env:
         TZ: Asia/Shanghai
       run: |
+        rm -rf gh-pages/*
         cp -rf main/public/* gh-pages
         cd gh-pages
         git config --global user.name "longshilin"
