@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Gamedev</title>
-  <icon>https://gamedev.longshilin.com/icon.png</icon>
+  <icon>https://game.longshilin.com/icon.png</icon>
   <subtitle>Longshilin的博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://gamedev.longshilin.com/"/>
-  <updated>2020-09-20T14:38:59.630Z</updated>
-  <id>https://gamedev.longshilin.com/</id>
+  <link href="https://game.longshilin.com/"/>
+  <updated>2020-09-20T14:40:24.952Z</updated>
+  <id>https://game.longshilin.com/</id>
   
   <author>
     <name>longshilin</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Unity 导出 Android 64-bit 版本</title>
-    <link href="https://gamedev.longshilin.com/unity-2019-06-20-unity-android-x64/"/>
-    <id>https://gamedev.longshilin.com/unity-2019-06-20-unity-android-x64/</id>
+    <link href="https://game.longshilin.com/unity-2019-06-20-unity-android-x64/"/>
+    <id>https://game.longshilin.com/unity-2019-06-20-unity-android-x64/</id>
     <published>2019-06-20T00:00:00.000Z</published>
-    <updated>2020-09-20T14:38:59.630Z</updated>
+    <updated>2020-09-20T14:40:24.952Z</updated>
     
     <summary type="html">
     
@@ -31,12 +31,12 @@
     </summary>
     
     
-      <category term="unity" scheme="https://gamedev.longshilin.com/categories/unity/"/>
+      <category term="unity" scheme="https://game.longshilin.com/categories/unity/"/>
     
     
-      <category term="Unity" scheme="https://gamedev.longshilin.com/tags/Unity/"/>
+      <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
     
-      <category term="UNITY" scheme="https://gamedev.longshilin.com/tags/UNITY/"/>
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
     
   </entry>
   
