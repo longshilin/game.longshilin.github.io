@@ -51,7 +51,7 @@ jobs:
       env:
         TZ: Asia/Shanghai
       run: |
-        find gh-pages ! -name 'CNAME' -type f -exec rm -f {} +
+        cd gh-pages && ls | grep -v CNAME | xargs rm -rf && cd ..
         cp -rf main/public/* gh-pages
         cd gh-pages
         git config --global user.name "longshilin"
