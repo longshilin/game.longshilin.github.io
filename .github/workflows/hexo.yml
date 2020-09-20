@@ -1,0 +1,62 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Hexo 
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+    - name: 迁出main
+      uses: actions/checkout@v2
+      with: 
+        path: main
+        submodules: 'recursive'
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    
+    - name: 安装hexo
+      run : |
+        npm install -g hexo-cli
+  
+    - name: 生成博客
+      run : |
+        cd main
+        npm install
+        hexo clean
+        hexo generate
+      
+    - name: 迁出gh-pages
+      uses: actions/checkout@v2
+      with:
+        path: gh-pages
+        ref: gh-pages
+        
+    - name: 部署到gh-pages
+      env:
+        TZ: Asia/Shanghai
+      run: |
+        cp -rf main/public/* gh-pages
+        cd gh-pages
+        git config --global user.name "longshilin"
+        git config --global user.email "583297550@qq.com"
+        git add .
+        git commit -m "Auto Delopy at `date +"%Y-%m-%d %H:%M"`"
+        git push origin gh-pages
+        
+      
