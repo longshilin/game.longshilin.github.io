@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://game.longshilin.com/"/>
-  <updated>2020-09-21T13:13:36.590Z</updated>
+  <updated>2020-09-21T13:18:07.281Z</updated>
   <id>https://game.longshilin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/"/>
     <id>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/</id>
     <published>2020-09-21T00:00:00.000Z</published>
-    <updated>2020-09-21T13:13:36.590Z</updated>
+    <updated>2020-09-21T13:18:07.281Z</updated>
     
     <summary type="html">
     
@@ -38,17 +38,19 @@
       <category term="Unity Artical" scheme="https://game.longshilin.com/categories/Unity-Artical/"/>
     
     
-      <category term="React" scheme="https://game.longshilin.com/tags/React/"/>
-    
       <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
+    
+      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
+    
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+    
+      <category term="React" scheme="https://game.longshilin.com/tags/React/"/>
     
       <category term="C#" scheme="https://game.longshilin.com/tags/C/"/>
     
       <category term="Redis" scheme="https://game.longshilin.com/tags/Redis/"/>
     
       <category term="Win" scheme="https://game.longshilin.com/tags/Win/"/>
-    
-      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
     
       <category term="shell" scheme="https://game.longshilin.com/tags/shell/"/>
     
@@ -61,6 +63,33 @@
       <category term="entitas" scheme="https://game.longshilin.com/tags/entitas/"/>
     
       <category term="sync" scheme="https://game.longshilin.com/tags/sync/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>unity-mulligan-renamer</title>
+    <link href="https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/"/>
+    <id>https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/</id>
+    <published>2020-09-20T00:00:00.000Z</published>
+    <updated>2020-09-21T13:18:07.281Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Unity编辑器的Mulligan重命名器工具可一次快速安全地重命名许多资产和游戏对象&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/redbluegames/unity-bulk-rename/blob/master/ReadMeImages/mulligan-renamer-overview.gif&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/redbluegames/unity-mulligan-renamer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/redbluegames/unity-mulligan-renamer&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity Tools" scheme="https://game.longshilin.com/categories/Unity-Tools/"/>
+    
+    
+      <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
+    
+      <category term="游戏" scheme="https://game.longshilin.com/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
     
       <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
     

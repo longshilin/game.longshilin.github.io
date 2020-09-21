@@ -15,7 +15,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Mon, 21 Sep 2020 13:13:36 GMT</pubDate>
+    <pubDate>Mon, 21 Sep 2020 13:18:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -36,6 +36,23 @@
       
       
       <comments>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>unity-mulligan-renamer</title>
+      <link>https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/</link>
+      <guid>https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/</guid>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;Unity编辑器的Mulligan重命名器工具可一次快速安全地重命名许多资产和游戏对象&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/redbluegames/unity-bulk-rename/blob/master/ReadMeImages/mulligan-renamer-overview.gif&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/redbluegames/unity-mulligan-renamer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/redbluegames/unity-mulligan-renamer&lt;/a&gt;&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/#disqus_thread</comments>
     </item>
     
   </channel>
