@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gamedev</title>
+  <icon>https://game.longshilin.com/icon.png</icon>
+  <subtitle>游戏开发</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://game.longshilin.com/"/>
+  <updated>2020-09-21T12:53:58.631Z</updated>
+  <id>https://game.longshilin.com/</id>
+  
+  <author>
+    <name>longshilin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Awesome Unity Open Source on GitHub (800+)</title>
+    <link href="https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/"/>
+    <id>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/</id>
+    <published>2020-09-21T00:00:00.000Z</published>
+    <updated>2020-09-21T12:53:58.631Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Ref: &lt;a href=&quot;https://github.com/baba-s/awesome-unity-open-source-on-github&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/baba-s/awesome-unity-open-source-on-github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以下为中文版，每月和主项目更新一次&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A categorized collection of awesome Unity open source on GitHub.&lt;/p&gt;
+&lt;h1 id=&quot;Contents&quot;&gt;&lt;a href=&quot;#Contents&quot; class=&quot;headerlink&quot; title=&quot;Contents&quot;&gt;&lt;/a&gt;Contents&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity Artical" scheme="https://game.longshilin.com/categories/Unity-Artical/"/>
+    
+    
+      <category term="React" scheme="https://game.longshilin.com/tags/React/"/>
+    
+      <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
+    
+      <category term="C#" scheme="https://game.longshilin.com/tags/C/"/>
+    
+      <category term="Redis" scheme="https://game.longshilin.com/tags/Redis/"/>
+    
+      <category term="Win" scheme="https://game.longshilin.com/tags/Win/"/>
+    
+      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
+    
+      <category term="shell" scheme="https://game.longshilin.com/tags/shell/"/>
+    
+      <category term="windows" scheme="https://game.longshilin.com/tags/windows/"/>
+    
+      <category term="ugui" scheme="https://game.longshilin.com/tags/ugui/"/>
+    
+      <category term="mesh" scheme="https://game.longshilin.com/tags/mesh/"/>
+    
+      <category term="entitas" scheme="https://game.longshilin.com/tags/entitas/"/>
+    
+      <category term="sync" scheme="https://game.longshilin.com/tags/sync/"/>
+    
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+    
+  </entry>
+  
+</feed>

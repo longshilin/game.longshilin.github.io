@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gamedev</title>
+    <link>https://game.longshilin.com/</link>
+    
+    <image>
+      <url>https://game.longshilin.com/icon.png</url>
+      <title>Gamedev</title>
+      <link>https://game.longshilin.com/</link>
+    </image>
+    
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>个人博客</description>
+    <pubDate>Mon, 21 Sep 2020 12:53:58 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Awesome Unity Open Source on GitHub (800+)</title>
+      <link>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/</link>
+      <guid>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/</guid>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Ref: &lt;a href=&quot;https://github.com/baba-s/awesome-unity-open-source-on-github&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/baba-s/awesome-unity-open-source-on-github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以下为中文版，每月和主项目更新一次&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A categorized collection of awesome Unity open source on GitHub.&lt;/p&gt;
+&lt;h1 id=&quot;Contents&quot;&gt;&lt;a href=&quot;#Contents&quot; class=&quot;headerlink&quot; title=&quot;Contents&quot;&gt;&lt;/a&gt;Contents&lt;/h1&gt;
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
