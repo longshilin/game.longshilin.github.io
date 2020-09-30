@@ -15,8 +15,42 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Mon, 21 Sep 2020 13:18:07 GMT</pubDate>
+    <pubDate>Wed, 30 Sep 2020 10:22:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Entitas笔记</title>
+      <link>https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/</link>
+      <guid>https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/</guid>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;h3 id=&quot;Code-Generation-代码自动生成&quot;&gt;&lt;a href=&quot;#Code-Generation-代码自动生成&quot; class=&quot;headerlink&quot; title=&quot;Code Generation [代码自动生成]&quot;&gt;&lt;/a&gt;Code Generation [代码自动生成]&lt;/h3&gt;&lt;h4 id=&quot;CodeGenerated的项目基本结构&quot;&gt;&lt;a href=&quot;#CodeGenerated的项目基本结构&quot; class=&quot;headerlink&quot; title=&quot;CodeGenerated的项目基本结构&quot;&gt;&lt;/a&gt;CodeGenerated的项目基本结构&lt;/h4&gt;&lt;p&gt;在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键&lt;code&gt;Ctrl+Shift+G&lt;/code&gt;得到下面截图这样的CodeGenerated项目结构。&lt;br&gt;看下来总共分为三个部分：&lt;code&gt;Game&lt;/code&gt; &lt;code&gt;Input&lt;/code&gt; &lt;code&gt;全局类&lt;/code&gt;&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>StackOverflow Unity3D Tag</title>
+      <link>https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/</link>
+      <guid>https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/</guid>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/unity3d&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stackoverflow.com/questions/tagged/unity3d&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;RSS Feed: &lt;a href=&quot;https://stackoverflow.com/feeds/tag?tagnames=unity3d&amp;amp;sort=votes&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stackoverflow.com/feeds/tag?tagnames=unity3d&amp;amp;sort=votes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;后面会按照浏览量从多到少来逐个整理。&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Awesome Unity Open Source on GitHub (800+)</title>
@@ -36,6 +70,28 @@
       
       
       <comments>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>MissingReferencesUnity</title>
+      <link>https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/</link>
+      <guid>https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/</guid>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;A Unity editor extension for finding missing object references&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/liortal53/MissingReferencesUnity&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/#disqus_thread</comments>
     </item>
     
     <item>

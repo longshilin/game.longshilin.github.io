@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://game.longshilin.com/"/>
-  <updated>2020-09-21T13:18:07.281Z</updated>
+  <updated>2020-09-30T10:22:05.660Z</updated>
   <id>https://game.longshilin.com/</id>
   
   <author>
@@ -17,11 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Entitas笔记</title>
+    <link href="https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/"/>
+    <id>https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/</id>
+    <published>2020-09-30T00:00:00.000Z</published>
+    <updated>2020-09-30T10:22:05.660Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Code-Generation-代码自动生成&quot;&gt;&lt;a href=&quot;#Code-Generation-代码自动生成&quot; class=&quot;headerlink&quot; title=&quot;Code Generation [代码自动生成]&quot;&gt;&lt;/a&gt;Code Generation [代码自动生成]&lt;/h3&gt;&lt;h4 id=&quot;CodeGenerated的项目基本结构&quot;&gt;&lt;a href=&quot;#CodeGenerated的项目基本结构&quot; class=&quot;headerlink&quot; title=&quot;CodeGenerated的项目基本结构&quot;&gt;&lt;/a&gt;CodeGenerated的项目基本结构&lt;/h4&gt;&lt;p&gt;在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键&lt;code&gt;Ctrl+Shift+G&lt;/code&gt;得到下面截图这样的CodeGenerated项目结构。&lt;br&gt;看下来总共分为三个部分：&lt;code&gt;Game&lt;/code&gt; &lt;code&gt;Input&lt;/code&gt; &lt;code&gt;全局类&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Entitas" scheme="https://game.longshilin.com/categories/Entitas/"/>
+    
+    
+      <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
+    
+      <category term="entitas" scheme="https://game.longshilin.com/tags/entitas/"/>
+    
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>StackOverflow Unity3D Tag</title>
+    <link href="https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/"/>
+    <id>https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/</id>
+    <published>2020-09-29T00:00:00.000Z</published>
+    <updated>2020-09-30T10:22:05.660Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/unity3d&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stackoverflow.com/questions/tagged/unity3d&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;RSS Feed: &lt;a href=&quot;https://stackoverflow.com/feeds/tag?tagnames=unity3d&amp;amp;sort=votes&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stackoverflow.com/feeds/tag?tagnames=unity3d&amp;amp;sort=votes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;后面会按照浏览量从多到少来逐个整理。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Unity QA" scheme="https://game.longshilin.com/categories/Unity-QA/"/>
+    
+    
+      <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
+    
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Awesome Unity Open Source on GitHub (800+)</title>
     <link href="https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/"/>
     <id>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/</id>
     <published>2020-09-21T00:00:00.000Z</published>
-    <updated>2020-09-21T13:18:07.281Z</updated>
+    <updated>2020-09-30T10:22:05.660Z</updated>
     
     <summary type="html">
     
@@ -40,9 +92,11 @@
     
       <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
     
-      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
+      <category term="entitas" scheme="https://game.longshilin.com/tags/entitas/"/>
     
       <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+    
+      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
     
       <category term="React" scheme="https://game.longshilin.com/tags/React/"/>
     
@@ -60,9 +114,39 @@
     
       <category term="mesh" scheme="https://game.longshilin.com/tags/mesh/"/>
     
-      <category term="entitas" scheme="https://game.longshilin.com/tags/entitas/"/>
-    
       <category term="sync" scheme="https://game.longshilin.com/tags/sync/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MissingReferencesUnity</title>
+    <link href="https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/"/>
+    <id>https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/</id>
+    <published>2020-09-20T00:00:00.000Z</published>
+    <updated>2020-09-30T10:22:05.660Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A Unity editor extension for finding missing object references&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/liortal53/MissingReferencesUnity&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Unity Tools" scheme="https://game.longshilin.com/categories/Unity-Tools/"/>
+    
+    
+      <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
+    
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+    
+      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
     
   </entry>
   
@@ -71,7 +155,7 @@
     <link href="https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/"/>
     <id>https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/</id>
     <published>2020-09-20T00:00:00.000Z</published>
-    <updated>2020-09-21T13:18:07.281Z</updated>
+    <updated>2020-09-30T10:22:05.660Z</updated>
     
     <summary type="html">
     
@@ -87,11 +171,11 @@
     
       <category term="Unity" scheme="https://game.longshilin.com/tags/Unity/"/>
     
-      <category term="游戏" scheme="https://game.longshilin.com/tags/%E6%B8%B8%E6%88%8F/"/>
+      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
     
       <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
     
-      <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
+      <category term="游戏" scheme="https://game.longshilin.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   

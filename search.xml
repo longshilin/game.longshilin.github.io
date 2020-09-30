@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Entitas笔记</title>
+    <url>/Entitas-2020-09-30-Entitas-notebook/</url>
+    <content><![CDATA[<h3 id="Code-Generation-代码自动生成"><a href="#Code-Generation-代码自动生成" class="headerlink" title="Code Generation [代码自动生成]"></a>Code Generation [代码自动生成]</h3><h4 id="CodeGenerated的项目基本结构"><a href="#CodeGenerated的项目基本结构" class="headerlink" title="CodeGenerated的项目基本结构"></a>CodeGenerated的项目基本结构</h4><p>在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键<code>Ctrl+Shift+G</code>得到下面截图这样的CodeGenerated项目结构。<br>看下来总共分为三个部分：<code>Game</code> <code>Input</code> <code>全局类</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png" alt=""></p>
+<p>其中，<code>Game</code>和<code>Input</code>文件夹结构简直太相似了，包含<code>Attribute</code> <code>ComponentsLookup</code> <code>Context</code> <code>Entity</code> <code>Matcher</code>。</p>
+<p><code>Contexts.cs</code>是全局的上下文，整个项目中就一个，可以通过<code>Contexts.sharedInstance</code>访问到，并管理所有的<code>Context</code></p>
+<p>sealed和partial关键字的含义：<br>sealed关键字表示不能继承该类，对类代码的结构没有影响。<br>partial关键字允许将一个类拆分到多个文件中，编译后它们就会合并为一个类。</p>
+]]></content>
+      <categories>
+        <category>Entitas</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+        <tag>entitas</tag>
+        <tag>UNITY</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>StackOverflow Unity3D Tag</title>
+    <url>/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://stackoverflow.com/questions/tagged/unity3d" target="_blank" rel="noopener">https://stackoverflow.com/questions/tagged/unity3d</a></p>
+</blockquote>
+<p>RSS Feed: <a href="https://stackoverflow.com/feeds/tag?tagnames=unity3d&amp;sort=votes" target="_blank" rel="noopener">https://stackoverflow.com/feeds/tag?tagnames=unity3d&amp;sort=votes</a></p>
+<p>后面会按照浏览量从多到少来逐个整理。</p>
+]]></content>
+      <categories>
+        <category>Unity QA</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+        <tag>UNITY</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MissingReferencesUnity</title>
+    <url>/Unity-Tools-2020-09-20-MissingReferencesUnity/</url>
+    <content><![CDATA[<p>A Unity editor extension for finding missing object references</p>
+<p>项目地址：<a href="https://github.com/liortal53/MissingReferencesUnity" target="_blank" rel="noopener">https://github.com/liortal53/MissingReferencesUnity</a></p>
+]]></content>
+      <categories>
+        <category>Unity Tools</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+        <tag>UNITY</tag>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>unity-mulligan-renamer</title>
     <url>/Unity-Tools-2020-09-20-unity-mulligan-renamer/</url>
     <content><![CDATA[<p>Unity编辑器的Mulligan重命名器工具可一次快速安全地重命名许多资产和游戏对象</p>
@@ -12,9 +62,9 @@
       </categories>
       <tags>
         <tag>Unity</tag>
-        <tag>游戏</tag>
-        <tag>GitHub</tag>
         <tag>UNITY</tag>
+        <tag>GitHub</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -1233,8 +1283,9 @@
       </categories>
       <tags>
         <tag>Unity</tag>
-        <tag>GitHub</tag>
+        <tag>entitas</tag>
         <tag>UNITY</tag>
+        <tag>GitHub</tag>
         <tag>React</tag>
         <tag>C#</tag>
         <tag>Redis</tag>
@@ -1243,7 +1294,6 @@
         <tag>windows</tag>
         <tag>ugui</tag>
         <tag>mesh</tag>
-        <tag>entitas</tag>
         <tag>sync</tag>
       </tags>
   </entry>

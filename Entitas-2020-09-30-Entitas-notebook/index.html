@@ -20,20 +20,24 @@
     var CONFIG = {"hostname":"game.longshilin.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Gamedev">
-<meta property="og:url" content="https://game.longshilin.com/categories/Unity-Tools/index.html">
+  <meta name="description" content="Code Generation [代码自动生成]CodeGenerated的项目基本结构在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键Ctrl+Shift+G得到下面截图这样的CodeGenerated项目结构。看下来总共分为三个部分：Game Input 全局类">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Entitas笔记">
+<meta property="og:url" content="https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/index.html">
 <meta property="og:site_name" content="Gamedev">
-<meta property="og:description" content="个人博客">
+<meta property="og:description" content="Code Generation [代码自动生成]CodeGenerated的项目基本结构在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键Ctrl+Shift+G得到下面截图这样的CodeGenerated项目结构。看下来总共分为三个部分：Game Input 全局类">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png">
+<meta property="article:published_time" content="2020-09-30T00:00:00.000Z">
+<meta property="article:modified_time" content="2020-09-30T10:22:05.660Z">
 <meta property="article:author" content="longshilin">
+<meta property="article:tag" content="Unity">
+<meta property="article:tag" content="entitas">
 <meta property="article:tag" content="UNITY">
-<meta property="article:tag" content="C#">
-<meta property="article:tag" content="游戏开发">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png">
 
-<link rel="canonical" href="https://game.longshilin.com/categories/Unity-Tools/">
+<link rel="canonical" href="https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/">
 
 
 <script id="page-configurations">
@@ -41,12 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: Unity Tools | Gamedev</title>
+  <title>Entitas笔记 | Gamedev</title>
   
 
 
@@ -200,77 +204,108 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Unity Tools
-          <small>分类</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars1.githubusercontent.com/u/18352884?s=460&u=02a2cae97169b12c9fd7eaf81a8dd16fc84e83d3&v=4">
+      <meta itemprop="name" content="longshilin">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Gamedev">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Entitas笔记<a href="https://github.com/longshilin/game.longshilin.github.io/edit/master/source/_posts/Entitas/2020-09-30-Entitas-notebook.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-09-30 08:00:00 / 修改时间：18:22:05" itemprop="dateCreated datePublished" datetime="2020-09-30T08:00:00+08:00">2020-09-30</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Entitas/" itemprop="url" rel="index"><span itemprop="name">Entitas</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-09-20T08:00:00+08:00"
-              content="2020-09-20">
-          09-20
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Unity-Tools-2020-09-20-MissingReferencesUnity/" itemprop="url">
-            <span itemprop="name">MissingReferencesUnity</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-09-20T08:00:00+08:00"
-              content="2020-09-20">
-          09-20
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Unity-Tools-2020-09-20-unity-mulligan-renamer/" itemprop="url">
-            <span itemprop="name">unity-mulligan-renamer</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+        <h3 id="Code-Generation-代码自动生成"><a href="#Code-Generation-代码自动生成" class="headerlink" title="Code Generation [代码自动生成]"></a>Code Generation [代码自动生成]</h3><h4 id="CodeGenerated的项目基本结构"><a href="#CodeGenerated的项目基本结构" class="headerlink" title="CodeGenerated的项目基本结构"></a>CodeGenerated的项目基本结构</h4><p>在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键<code>Ctrl+Shift+G</code>得到下面截图这样的CodeGenerated项目结构。<br>看下来总共分为三个部分：<code>Game</code> <code>Input</code> <code>全局类</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png" alt=""></p>
+<p>其中，<code>Game</code>和<code>Input</code>文件夹结构简直太相似了，包含<code>Attribute</code> <code>ComponentsLookup</code> <code>Context</code> <code>Entity</code> <code>Matcher</code>。</p>
+<p><code>Contexts.cs</code>是全局的上下文，整个项目中就一个，可以通过<code>Contexts.sharedInstance</code>访问到，并管理所有的<code>Context</code></p>
+<p>sealed和partial关键字的含义：<br>sealed关键字表示不能继承该类，对类代码的结构没有影响。<br>partial关键字允许将一个类拆分到多个文件中，编译后它们就会合并为一个类。</p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Unity/" rel="tag"># Unity</a>
+              <a href="/tags/entitas/" rel="tag"># entitas</a>
+              <a href="/tags/UNITY/" rel="tag"># UNITY</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/" rel="prev" title="StackOverflow Unity3D Tag">
+      <i class="fa fa-chevron-left"></i> StackOverflow Unity3D Tag
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    
+  
+  <div class="comments">
+  <script src="https://utteranc.es/client.js" repo="longshilin/game.longshilin.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -317,6 +352,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Code-Generation-代码自动生成"><span class="nav-number">1.</span> <span class="nav-text">Code Generation [代码自动生成]</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#CodeGenerated的项目基本结构"><span class="nav-number">1.1.</span> <span class="nav-text">CodeGenerated的项目基本结构</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
