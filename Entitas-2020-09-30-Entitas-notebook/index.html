@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png">
 <meta property="article:published_time" content="2020-09-30T00:00:00.000Z">
-<meta property="article:modified_time" content="2020-09-30T10:22:05.660Z">
+<meta property="article:modified_time" content="2020-10-12T08:02:36.323Z">
 <meta property="article:author" content="longshilin">
 <meta property="article:tag" content="Unity">
 <meta property="article:tag" content="entitas">
@@ -128,12 +128,12 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-tags">
@@ -233,10 +233,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-09-30 08:00:00 / 修改时间：18:22:05" itemprop="dateCreated datePublished" datetime="2020-09-30T08:00:00+08:00">2020-09-30</time>
+              <time title="创建时间：2020-09-30 08:00:00" itemprop="dateCreated datePublished" datetime="2020-09-30T08:00:00+08:00">2020-09-30</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-10-12 16:02:36" itemprop="dateModified" datetime="2020-10-12T16:02:36+08:00">2020-10-12</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -260,9 +266,11 @@
       
         <h3 id="Code-Generation-代码自动生成"><a href="#Code-Generation-代码自动生成" class="headerlink" title="Code Generation [代码自动生成]"></a>Code Generation [代码自动生成]</h3><h4 id="CodeGenerated的项目基本结构"><a href="#CodeGenerated的项目基本结构" class="headerlink" title="CodeGenerated的项目基本结构"></a>CodeGenerated的项目基本结构</h4><p>在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键<code>Ctrl+Shift+G</code>得到下面截图这样的CodeGenerated项目结构。<br>看下来总共分为三个部分：<code>Game</code> <code>Input</code> <code>全局类</code></p>
 <p><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png" alt=""></p>
-<p>其中，<code>Game</code>和<code>Input</code>文件夹结构简直太相似了，包含<code>Attribute</code> <code>ComponentsLookup</code> <code>Context</code> <code>Entity</code> <code>Matcher</code>。</p>
+<p>其中，<code>Game</code>和<code>Input</code>文件夹结构简直太相似了，包含<code>Attribute</code>, <code>ComponentsLookup</code>, <code>Context</code>, <code>Entity</code>, <code>Matcher</code>。</p>
 <p><code>Contexts.cs</code>是全局的上下文，整个项目中就一个，可以通过<code>Contexts.sharedInstance</code>访问到，并管理所有的<code>Context</code></p>
+<blockquote>
 <p>sealed和partial关键字的含义：<br>sealed关键字表示不能继承该类，对类代码的结构没有影响。<br>partial关键字允许将一个类拆分到多个文件中，编译后它们就会合并为一个类。</p>
+</blockquote>
 
     </div>
 
@@ -286,7 +294,10 @@
     <a href="/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/" rel="prev" title="StackOverflow Unity3D Tag">
       <i class="fa fa-chevron-left"></i> StackOverflow Unity3D Tag
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/" rel="next" title="FlappyBird之项目初始框架搭建">
+      FlappyBird之项目初始框架搭建 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -368,14 +379,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">

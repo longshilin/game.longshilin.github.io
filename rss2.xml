@@ -15,8 +15,25 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Wed, 30 Sep 2020 10:22:05 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2020 08:02:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>FlappyBird之项目初始框架搭建</title>
+      <link>https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/</link>
+      <guid>https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/</guid>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 &lt;a href=&quot;https://longshilin.com/files/Entitas-1.13.0.unitypackage&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;附包下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entitas插件导入之后，按快捷键 &lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;G&lt;/code&gt; 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。&lt;/p&gt;
+&lt;p&gt;最终框架结构如下：&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png&quot; alt&gt;&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Entitas笔记</title>

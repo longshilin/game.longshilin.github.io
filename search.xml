@@ -5,9 +5,11 @@
     <url>/Entitas-2020-09-30-Entitas-notebook/</url>
     <content><![CDATA[<h3 id="Code-Generation-代码自动生成"><a href="#Code-Generation-代码自动生成" class="headerlink" title="Code Generation [代码自动生成]"></a>Code Generation [代码自动生成]</h3><h4 id="CodeGenerated的项目基本结构"><a href="#CodeGenerated的项目基本结构" class="headerlink" title="CodeGenerated的项目基本结构"></a>CodeGenerated的项目基本结构</h4><p>在导入Entitas插件并配置好相关设置之后，在Unity面板中按下快捷键<code>Ctrl+Shift+G</code>得到下面截图这样的CodeGenerated项目结构。<br>看下来总共分为三个部分：<code>Game</code> <code>Input</code> <code>全局类</code></p>
 <p><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20200930170318.png" alt=""></p>
-<p>其中，<code>Game</code>和<code>Input</code>文件夹结构简直太相似了，包含<code>Attribute</code> <code>ComponentsLookup</code> <code>Context</code> <code>Entity</code> <code>Matcher</code>。</p>
+<p>其中，<code>Game</code>和<code>Input</code>文件夹结构简直太相似了，包含<code>Attribute</code>, <code>ComponentsLookup</code>, <code>Context</code>, <code>Entity</code>, <code>Matcher</code>。</p>
 <p><code>Contexts.cs</code>是全局的上下文，整个项目中就一个，可以通过<code>Contexts.sharedInstance</code>访问到，并管理所有的<code>Context</code></p>
+<blockquote>
 <p>sealed和partial关键字的含义：<br>sealed关键字表示不能继承该类，对类代码的结构没有影响。<br>partial关键字允许将一个类拆分到多个文件中，编译后它们就会合并为一个类。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Entitas</category>
@@ -1295,6 +1297,24 @@
         <tag>ugui</tag>
         <tag>mesh</tag>
         <tag>sync</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FlappyBird之项目初始框架搭建</title>
+    <url>/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 <a href="https://longshilin.com/files/Entitas-1.13.0.unitypackage" target="_blank" rel="noopener">附包下载地址</a></p>
+<p>Entitas插件导入之后，按快捷键 <code>Ctrl</code>+<code>Shift</code>+<code>G</code> 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。</p>
+<p>最终框架结构如下：<br><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>FlappyBird</category>
+        <category>Entitas</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+        <tag>entitas</tag>
+        <tag>UNITY</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
 </search>

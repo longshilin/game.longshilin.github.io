@@ -20,22 +20,25 @@
     var CONFIG = {"hostname":"game.longshilin.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="https://game.longshilin.com/tags/index.html">
+  <meta name="description" content="创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 附包下载地址 Entitas插件导入之后，按快捷键 Ctrl+Shift+G 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。 最终框架结构如下：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FlappyBird之项目初始框架搭建">
+<meta property="og:url" content="https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/index.html">
 <meta property="og:site_name" content="Gamedev">
-<meta property="og:description" content="个人博客">
+<meta property="og:description" content="创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 附包下载地址 Entitas插件导入之后，按快捷键 Ctrl+Shift+G 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。 最终框架结构如下：">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-07-15T10:20:25.000Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png">
+<meta property="article:published_time" content="2020-10-12T00:00:00.000Z">
 <meta property="article:modified_time" content="2020-10-12T08:02:36.323Z">
 <meta property="article:author" content="longshilin">
+<meta property="article:tag" content="Unity">
+<meta property="article:tag" content="entitas">
 <meta property="article:tag" content="UNITY">
-<meta property="article:tag" content="C#">
-<meta property="article:tag" content="游戏开发">
+<meta property="article:tag" content="游戏">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png">
 
-<link rel="canonical" href="https://game.longshilin.com/tags/">
+<link rel="canonical" href="https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/">
 
 
 <script id="page-configurations">
@@ -43,13 +46,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Tags | Gamedev
-</title>
+  <title>FlappyBird之项目初始框架搭建 | Gamedev</title>
   
 
 
@@ -202,55 +204,112 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars1.githubusercontent.com/u/18352884?s=460&u=02a2cae97169b12c9fd7eaf81a8dd16fc84e83d3&v=4">
+      <meta itemprop="name" content="longshilin">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Gamedev">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          FlappyBird之项目初始框架搭建<a href="https://github.com/longshilin/game.longshilin.github.io/edit/master/source/_posts/Entitas/FlappyBird/2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">Tags<a href="https://github.com/longshilin/game.longshilin.github.io/edit/master/source/tags/index.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2020-10-12 08:00:00 / 修改时间：16:02:36" itemprop="dateCreated datePublished" datetime="2020-10-12T08:00:00+08:00">2020-10-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/FlappyBird/" itemprop="url" rel="index"><span itemprop="name">FlappyBird</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/FlappyBird/Entitas/" itemprop="url" rel="index"><span itemprop="name">Entitas</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 <a href="https://longshilin.com/files/Entitas-1.13.0.unitypackage" target="_blank" rel="noopener">附包下载地址</a></p>
+<p>Entitas插件导入之后，按快捷键 <code>Ctrl</code>+<code>Shift</code>+<code>G</code> 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。</p>
+<p>最终框架结构如下：<br><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png" alt=""></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Unity/" rel="tag"># Unity</a>
+              <a href="/tags/entitas/" rel="tag"># entitas</a>
+              <a href="/tags/UNITY/" rel="tag"># UNITY</a>
+              <a href="/tags/%E6%B8%B8%E6%88%8F/" rel="tag"># 游戏</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/Entitas-2020-09-30-Entitas-notebook/" rel="prev" title="Entitas笔记">
+      <i class="fa fa-chevron-left"></i> Entitas笔记
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-              目前共计 14 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/C/" style="font-size: 12px; color: #ccc">C#</a> <a href="/tags/GitHub/" style="font-size: 24px; color: #4f4f4f">GitHub</a> <a href="/tags/React/" style="font-size: 12px; color: #ccc">React</a> <a href="/tags/Redis/" style="font-size: 12px; color: #ccc">Redis</a> <a href="/tags/UNITY/" style="font-size: 30px; color: #111">UNITY</a> <a href="/tags/Unity/" style="font-size: 30px; color: #111">Unity</a> <a href="/tags/Win/" style="font-size: 12px; color: #ccc">Win</a> <a href="/tags/entitas/" style="font-size: 24px; color: #4f4f4f">entitas</a> <a href="/tags/mesh/" style="font-size: 12px; color: #ccc">mesh</a> <a href="/tags/shell/" style="font-size: 12px; color: #ccc">shell</a> <a href="/tags/sync/" style="font-size: 12px; color: #ccc">sync</a> <a href="/tags/ugui/" style="font-size: 12px; color: #ccc">ugui</a> <a href="/tags/windows/" style="font-size: 12px; color: #ccc">windows</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 18px; color: #8e8e8e">游戏</a>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
           
+    
+  
+  <div class="comments">
+  <script src="https://utteranc.es/client.js" repo="longshilin/game.longshilin.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
