@@ -15,7 +15,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Mon, 12 Oct 2020 08:02:36 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2020 08:57:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -25,9 +25,8 @@
       <pubDate>Mon, 12 Oct 2020 00:00:00 GMT</pubDate>
       <description>
       
-        &lt;p&gt;创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 &lt;a href=&quot;https://longshilin.com/files/Entitas-1.13.0.unitypackage&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;附包下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Entitas插件导入之后，按快捷键 &lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;G&lt;/code&gt; 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。&lt;/p&gt;
-&lt;p&gt;最终框架结构如下：&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png&quot; alt&gt;&lt;/p&gt;
+        &lt;h2 id=&quot;导入Entitas插件&quot;&gt;&lt;a href=&quot;#导入Entitas插件&quot; class=&quot;headerlink&quot; title=&quot;导入Entitas插件&quot;&gt;&lt;/a&gt;导入Entitas插件&lt;/h2&gt;&lt;p&gt;创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 &lt;a href=&quot;https://longshilin.com/files/Entitas-1.13.0.unitypackage&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;附包下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Entitas插件导入之后，按快捷键 &lt;code&gt;Ctrl + Shift + G&lt;/code&gt; 生成Generated文件目录，再创建一个Features目录存放游戏逻辑代码，Scenes存放场景资源文件。&lt;/p&gt;
       
       </description>
       
