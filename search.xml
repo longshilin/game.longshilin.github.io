@@ -1307,65 +1307,14 @@
 <p>最终框架结构如下：<br><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20201012155210.png" alt=""></p>
 <h2 id="接入框架驱动类"><a href="#接入框架驱动类" class="headerlink" title="接入框架驱动类"></a>接入框架驱动类</h2><p>通过MonoBehavior的生命周期函数驱动框架内的游戏控制器。</p>
 <p><code>GameControllerBehavior.cs</code></p>
-<pre><code class="c#">using System;
-using UnityEngine;
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs c#">using System;<br>using UnityEngine;<br><br>public class GameControllerBehaviour : MonoBehaviour<br>&#123;<br>    private GameController _gameController;<br><br>    private void Awake()<br>    &#123;<br>        _gameController &#x3D; new GameController(Contexts.sharedInstance);<br>    &#125;<br><br>    private void Start()<br>    &#123;<br>        _gameController.Initialize();<br>    &#125;<br><br>    private void Update()<br>    &#123;<br>        _gameController.Execute();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
-public class GameControllerBehaviour : MonoBehaviour
-{
-    private GameController _gameController;
-
-    private void Awake()
-    {
-        _gameController = new GameController(Contexts.sharedInstance);
-    }
-
-    private void Start()
-    {
-        _gameController.Initialize();
-    }
-
-    private void Update()
-    {
-        _gameController.Execute();
-    }
-}</code></pre>
 <p><code>GameController.cs</code></p>
-<pre><code class="c#">using Entitas;
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs c#">using Entitas;<br><br>&#x2F;&#x2F;&#x2F; 游戏控制器<br>&#x2F;&#x2F;&#x2F; 管理游戏的总入口<br>public class GameController<br>&#123;<br>    private readonly Systems _systems;<br>    private readonly Contexts _contexts;<br><br>    public GameController(Contexts contexts)<br>    &#123;<br>        _contexts &#x3D; contexts;<br>         _systems &#x3D; new GameSystems(_contexts);<br>    &#125;<br><br>    public void Initialize()<br>    &#123;<br>        _systems.Initialize();<br>    &#125;<br><br>    public void Execute()<br>    &#123;<br>        _systems.Execute();<br>        _systems.Cleanup();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
-/// 游戏控制器
-/// 管理游戏的总入口
-public class GameController
-{
-    private readonly Systems _systems;
-    private readonly Contexts _contexts;
-
-    public GameController(Contexts contexts)
-    {
-        _contexts = contexts;
-         _systems = new GameSystems(_contexts);
-    }
-
-    public void Initialize()
-    {
-        _systems.Initialize();
-    }
-
-    public void Execute()
-    {
-        _systems.Execute();
-        _systems.Cleanup();
-    }
-}</code></pre>
 <p><code>GameSystem.cs</code></p>
-<pre><code class="c#">/// 游戏系统控制器
-/// 管理游戏内所有System的创建和实例化
-public class GameSystems : Feature
-{
-    public GameSystems(Contexts contexts)
-    {
-        // create all systems
-    }
-}</code></pre>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs c#">&#x2F;&#x2F;&#x2F; 游戏系统控制器<br>&#x2F;&#x2F;&#x2F; 管理游戏内所有System的创建和实例化<br>public class GameSystems : Feature<br>&#123;<br>    public GameSystems(Contexts contexts)<br>    &#123;<br>        &#x2F;&#x2F; create all systems<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
 <p>上面三个类实现初始化所有Systems，并从MonoBehavior中驱动所有的Systems。</p>
 ]]></content>
       <categories>
