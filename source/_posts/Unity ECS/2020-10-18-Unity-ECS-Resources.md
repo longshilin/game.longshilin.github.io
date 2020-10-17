@@ -3,8 +3,6 @@ title: Unity ECS Resources
 ---
 
 ### [Github] Search: ECS
-
-Search：
 https://github.com/search?l=C%23&q=entity-component-system&type=Repositories
 
 ### [Reddit] Question: Books or comprehensive publications on ECS
