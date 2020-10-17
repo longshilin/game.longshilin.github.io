@@ -2,7 +2,7 @@
 title: FlappyBird之项目初始框架搭建
 ---
 
-
+ 
 ## 导入Entitas插件
 创建一个Unity空项目，然后导入Entitas-1.13.0.unitypackage资源文件 [附包下载地址](https://longshilin.com/files/Entitas-1.13.0.unitypackage)
 
