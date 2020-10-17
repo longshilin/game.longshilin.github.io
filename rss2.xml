@@ -15,8 +15,24 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Mon, 12 Oct 2020 09:15:57 GMT</pubDate>
+    <pubDate>Sat, 17 Oct 2020 19:45:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Unity ECS Resources</title>
+      <link>https://game.longshilin.com/Unity-ECS-2020-10-18-Unity-ECS-Resources/</link>
+      <guid>https://game.longshilin.com/Unity-ECS-2020-10-18-Unity-ECS-Resources/</guid>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;h3 id=&quot;Github-Search-ECS&quot;&gt;&lt;a href=&quot;#Github-Search-ECS&quot; class=&quot;headerlink&quot; title=&quot;[Github] Search: ECS&quot;&gt;&lt;/a&gt;[Github] Search: ECS&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/search?l=C%23&amp;amp;q=entity-component-system&amp;amp;type=Repositories&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/search?l=C%23&amp;amp;q=entity-component-system&amp;amp;type=Repositories&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Reddit-Question-Books-or-comprehensive-publications-on-ECS&quot;&gt;&lt;a href=&quot;#Reddit-Question-Books-or-comprehensive-publications-on-ECS&quot; class=&quot;headerlink&quot; title=&quot;[Reddit] Question: Books or comprehensive publications on ECS&quot;&gt;&lt;/a&gt;[Reddit] Question: Books or comprehensive publications on ECS&lt;/h3&gt;
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/Unity-ECS-2020-10-18-Unity-ECS-Resources/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>FlappyBird之项目初始框架搭建</title>
