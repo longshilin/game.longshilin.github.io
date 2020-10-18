@@ -85,3 +85,12 @@ public class GameSystems : Feature
 
 上面三个类实现初始化所有Systems，并从MonoBehavior中驱动所有的Systems。
 
+参考代码：[commit](https://github.com/longshilin/LearnEntitas/commit/6202e67a63a7e15458044b194d0ca5c7b2f41c33)
+
+## 嵌入全局配置文件
+在Jenny配置的Contexts中加入`Configuration`关键字，然后点击Generate按钮生成相关代码。
+
+![](https://cdn.jsdelivr.net/gh/longshilin/images/20201012210128.png)
+
+
+
