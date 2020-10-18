@@ -15,7 +15,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>个人博客</description>
-    <pubDate>Sat, 17 Oct 2020 20:25:29 GMT</pubDate>
+    <pubDate>Sun, 18 Oct 2020 05:04:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -32,6 +32,28 @@
       
       
       <comments>https://game.longshilin.com/Unity-ECS-2020-10-18-Unity-ECS-Resources/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>TeamCity Installation$</title>
+      <link>https://game.longshilin.com/TeamCity-2020-10-13-TeamCity-Installation/</link>
+      <guid>https://game.longshilin.com/TeamCity-2020-10-13-TeamCity-Installation/</guid>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;Bash&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;figcaption&gt;&lt;span&gt;script&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://game.longshilin.com/TeamCity-2020-10-13-TeamCity-Installation/#disqus_thread</comments>
     </item>
     
     <item>

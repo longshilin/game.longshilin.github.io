@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://game.longshilin.com/"/>
-  <updated>2020-10-17T20:25:29.079Z</updated>
+  <updated>2020-10-18T05:04:19.713Z</updated>
   <id>https://game.longshilin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://game.longshilin.com/Unity-ECS-2020-10-18-Unity-ECS-Resources/"/>
     <id>https://game.longshilin.com/Unity-ECS-2020-10-18-Unity-ECS-Resources/</id>
     <published>2020-10-18T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.079Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     
@@ -43,11 +43,39 @@
   </entry>
   
   <entry>
+    <title>TeamCity Installation$</title>
+    <link href="https://game.longshilin.com/TeamCity-2020-10-13-TeamCity-Installation/"/>
+    <id>https://game.longshilin.com/TeamCity-2020-10-13-TeamCity-Installation/</id>
+    <published>2020-10-13T00:00:00.000Z</published>
+    <updated>2020-10-18T05:04:19.713Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Bash&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;figcaption&gt;&lt;span&gt;script&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="TeamCity" scheme="https://game.longshilin.com/categories/TeamCity/"/>
+    
+    
+      <category term="shell" scheme="https://game.longshilin.com/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
     <title>FlappyBird之项目初始框架搭建</title>
     <link href="https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/"/>
     <id>https://game.longshilin.com/Entitas-FlappyBird-2020-10-12-FlappyBird-%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/</id>
     <published>2020-10-12T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.075Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     
@@ -68,6 +96,8 @@
     
       <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
     
+      <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
+    
       <category term="游戏" scheme="https://game.longshilin.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
       <category term="C#" scheme="https://game.longshilin.com/tags/C/"/>
@@ -79,7 +109,7 @@
     <link href="https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/"/>
     <id>https://game.longshilin.com/Entitas-2020-09-30-Entitas-notebook/</id>
     <published>2020-09-30T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.075Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     
@@ -104,7 +134,7 @@
     <link href="https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/"/>
     <id>https://game.longshilin.com/Unity-QA-2020-09-29-StackOverflow-Unity3D-Tag/</id>
     <published>2020-09-29T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.079Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     
@@ -131,7 +161,7 @@
     <link href="https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/"/>
     <id>https://game.longshilin.com/Unity-Artical-2020-09-21-awesome-unity-open-source-on-github/</id>
     <published>2020-09-21T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.079Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     
@@ -154,6 +184,8 @@
     
       <category term="UNITY" scheme="https://game.longshilin.com/tags/UNITY/"/>
     
+      <category term="shell" scheme="https://game.longshilin.com/tags/shell/"/>
+    
       <category term="GitHub" scheme="https://game.longshilin.com/tags/GitHub/"/>
     
       <category term="React" scheme="https://game.longshilin.com/tags/React/"/>
@@ -163,8 +195,6 @@
       <category term="Redis" scheme="https://game.longshilin.com/tags/Redis/"/>
     
       <category term="Win" scheme="https://game.longshilin.com/tags/Win/"/>
-    
-      <category term="shell" scheme="https://game.longshilin.com/tags/shell/"/>
     
       <category term="windows" scheme="https://game.longshilin.com/tags/windows/"/>
     
@@ -181,7 +211,7 @@
     <link href="https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/"/>
     <id>https://game.longshilin.com/Unity-Tools-2020-09-20-MissingReferencesUnity/</id>
     <published>2020-09-20T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.079Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     
@@ -213,7 +243,7 @@
     <link href="https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/"/>
     <id>https://game.longshilin.com/Unity-Tools-2020-09-20-unity-mulligan-renamer/</id>
     <published>2020-09-20T00:00:00.000Z</published>
-    <updated>2020-10-17T20:25:29.079Z</updated>
+    <updated>2020-10-18T05:04:19.713Z</updated>
     
     <summary type="html">
     

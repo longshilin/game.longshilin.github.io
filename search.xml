@@ -21,6 +21,18 @@
       </tags>
   </entry>
   <entry>
+    <title>TeamCity Installation$</title>
+    <url>/TeamCity-2020-10-13-TeamCity-Installation/</url>
+    <content><![CDATA[<p>Bash</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="code"><pre><code class="hljs shell">D:\package\TeamCity\bin\runAll.bat start<br>D:\package\TeamCity\buildAgent\bin\agent.bat start<br><br>D:\package\TeamCity\buildAgent\bin\agent.bat stop force<br>D:\package\TeamCity\bin\runAll.bat stop force<br></code></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>TeamCity</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Unity ECS Resources</title>
     <url>/Unity-ECS-2020-10-18-Unity-ECS-Resources/</url>
     <content><![CDATA[<h3 id="Github-Search-ECS"><a href="#Github-Search-ECS" class="headerlink" title="[Github] Search: ECS"></a>[Github] Search: ECS</h3><p><a href="https://github.com/search?l=C%23&amp;q=entity-component-system&amp;type=Repositories" target="_blank" rel="noopener">https://github.com/search?l=C%23&amp;q=entity-component-system&amp;type=Repositories</a></p>
@@ -1305,12 +1317,12 @@
         <tag>Unity</tag>
         <tag>entitas</tag>
         <tag>UNITY</tag>
+        <tag>shell</tag>
         <tag>GitHub</tag>
         <tag>React</tag>
         <tag>C#</tag>
         <tag>Redis</tag>
         <tag>Win</tag>
-        <tag>shell</tag>
         <tag>windows</tag>
         <tag>ugui</tag>
         <tag>mesh</tag>
@@ -1334,6 +1346,9 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs c#">&#x2F;&#x2F;&#x2F; 游戏系统控制器<br>&#x2F;&#x2F;&#x2F; 管理游戏内所有System的创建和实例化<br>public class GameSystems : Feature<br>&#123;<br>    public GameSystems(Contexts contexts)<br>    &#123;<br>        &#x2F;&#x2F; create all systems<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>上面三个类实现初始化所有Systems，并从MonoBehavior中驱动所有的Systems。</p>
+<p>参考代码：<a href="https://github.com/longshilin/LearnEntitas/commit/6202e67a63a7e15458044b194d0ca5c7b2f41c33" target="_blank" rel="noopener">commit</a></p>
+<h2 id="嵌入全局配置文件"><a href="#嵌入全局配置文件" class="headerlink" title="嵌入全局配置文件"></a>嵌入全局配置文件</h2><p>在Jenny配置的Contexts中加入<code>Configuration</code>关键字，然后点击Generate按钮生成相关代码。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longshilin/images/20201012210128.png" alt=""></p>
 ]]></content>
       <categories>
         <category>FlappyBird</category>
@@ -1343,6 +1358,7 @@
         <tag>Unity</tag>
         <tag>entitas</tag>
         <tag>UNITY</tag>
+        <tag>GitHub</tag>
         <tag>游戏</tag>
         <tag>C#</tag>
       </tags>
